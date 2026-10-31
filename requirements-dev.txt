@@ -1,0 +1,2 @@
+# Development only: AudioVerdict itself needs no third-party packages.
+pytest>=7.0

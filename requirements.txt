@@ -1,0 +1,7 @@
+# AudioVerdict has no runtime dependencies by design.
+#
+# Everything - decoders, FFT, MFCC, loudness, fingerprinting - runs on the
+# Python standard library alone. This file is intentionally empty of runtime
+# packages; install the dev extra only if you want to run the test suite:
+#
+#     pip install -r requirements-dev.txt
